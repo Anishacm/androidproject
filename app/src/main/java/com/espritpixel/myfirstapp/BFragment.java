@@ -20,7 +20,7 @@ public class BFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Clicked!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Click!", Toast.LENGTH_SHORT).show();
                 v.setVisibility(View.GONE);
             }
         });
